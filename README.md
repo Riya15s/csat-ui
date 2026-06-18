@@ -38,7 +38,7 @@ The application allows users to configure a customer feedback popup through Cont
 ### Live Preview
 
 * Real-time updates
-* Mobile preview
+* Mobile Preview
 * No page refresh required
 
 ## Tech Stack
@@ -52,9 +52,9 @@ The application allows users to configure a customer feedback popup through Cont
 
 src/
 ├── components/
-│ ├── ContentPage.jsx
-│ ├── StylingPage.jsx
-│ └── MobilePreview.jsx
+│   ├── ContentPage.jsx
+│   ├── StylingPage.jsx
+│   └── MobilePreview.jsx
 ├── App.jsx
 ├── App.css
 ├── main.jsx
@@ -81,4 +81,5 @@ https://riya-csat-ui.netlify.app
 ## Author
 
 Riya Jagriti
+
 
