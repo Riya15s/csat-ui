@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+
+.left {
+  flex: 1;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.right {
+  width: 400px;
+  position: sticky;
+  top: 20px;
+}
+
+input,
+textarea,
+button {
+  padding: 8px;
+  margin-top: 5px;
+}
+
+h2,
+h3 {
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .right {
+    width: 100%;
+    position: static;
+  }
+}
