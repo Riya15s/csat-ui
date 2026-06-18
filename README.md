@@ -1,16 +1,85 @@
-# React + Vite
+# CSAT Campaign Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a simplified CSAT (Customer Satisfaction) Campaign Builder built using React.js and Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application allows users to customize a customer feedback popup through Content and Styling configurations while displaying a live mobile preview that updates instantly.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Content Configuration
 
-## Expanding the ESLint configuration
+* Initial Feedback Title
+* Initial Feedback Subtitle
+* Dynamic Feedback Options (Add/Delete)
+* Additional Comment Toggle
+* Submit Button Text
+* Thank You Image Upload
+* Thank You Title
+* Thank You Subtitle
+* Thank You Button Text
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Styling Configuration
+
+* Background Color
+* Title Color
+* Subtitle Color
+* Button Color
+* Button Text Color
+* Font Size
+* Font Weight
+* Border Radius
+* Button Width
+* Button Height
+* Rating Selected Color
+* Rating Unselected Color
+
+### Live Preview
+
+* Real-time updates
+* Mobile device preview
+* No page refresh required
+
+## Tech Stack
+
+* React.js
+* JavaScript
+* Vite
+* CSS
+
+## Folder Structure
+
+src/
+├── components/
+│   ├── ContentPage.jsx
+│   ├── StylingPage.jsx
+│   └── MobilePreview.jsx
+├── App.jsx
+├── App.css
+├── main.jsx
+└── index.css
+
+## Setup Instructions
+
+```bash
+git clone https://github.com/Riya15s/csat-ui.git
+npm install
+npm run dev
+```
+
+## Build Project
+
+```bash
+npm run build
+```
+
+## Deployment Link
+
+Live Demo:
+https://riya-csat-ui.netlify.app
+
+## Author
+
+Riya Jagriti
+
